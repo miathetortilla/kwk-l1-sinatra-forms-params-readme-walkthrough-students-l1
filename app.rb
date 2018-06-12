@@ -15,5 +15,9 @@ post '/food' do
   end
 
 
+  params = {
+  :name => "Sam",
+  :favorite_food => "Green Eggs and Ham"
+}
 
 end
