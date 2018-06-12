@@ -18,6 +18,7 @@ class App < Sinatra::Base
 <input type="text" name="favorite_food">
 
 post '/food' do
+  params.to_s
   "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
 end
 end
