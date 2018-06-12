@@ -10,4 +10,9 @@ class App < Sinatra::Base
  
   end
 
+params = {
+  :name => "Sam",
+  :favorite_food => "Green Eggs and Ham"
+}
+
 end
