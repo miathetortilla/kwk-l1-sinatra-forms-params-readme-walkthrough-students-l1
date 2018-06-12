@@ -15,7 +15,6 @@ class App < Sinatra::Base
   :favorite_food => "Green Eggs and Ham"
 }
 
-<input type="text" name="favorite_food">
 
 post '/food' do
   params.to_s
