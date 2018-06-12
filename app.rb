@@ -15,7 +15,7 @@ class App < Sinatra::Base
   :favorite_food => "Green Eggs and Ham"
 }
 
-<input type="text" name="favorite_food"></p>
+
  
 
 post '/food' do
